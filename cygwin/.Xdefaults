@@ -1,0 +1,68 @@
+!{{{ Rxvt
+!
+! General
+Rxvt*termName:           rxvt-unicode-256color
+Rxvt*loginShell:         true
+Rxvt*scrollBar:         false
+Rxvt*secondaryScroll:    true
+Rxvt*saveLines:         65535
+Rxvt*cursorBlink:       false
+!Rxvt*cursorUnderline:   true
+Rxvt*urgentOnBell:       true
+!Rxvt*override-redirect:false
+!Rxvt*borderLess:       false
+!Rxvt*internalBorder:       0
+!Rxvt*externalBorder:       0
+!
+! Extensions
+Rxvt*perl-lib:        /usr/lib/Rxvt/perl/
+Rxvt*perl-ext-common: default,matcher,searchable-scrollback
+Rxvt*urlLauncher:     /usr/local/bin/firefox
+Rxvt*matcher.button:  1
+! Catch ugly URLs
+Rxvt*cutchars:        '"'()*<>[]{|}
+!
+! Appearance
+Rxvt*font:     -xos4-terminus-medium-*-*-*-14-*-*-*-*-*-iso8859-2
+Rxvt*boldFont: -xos4-terminus-bold-*-*-*-14-*-*-*-*-*-iso8859-2
+Rxvt*letterSpace: -1
+Rxvt*xftAntialias: true
+!
+! Cursor
+Rxvt*cursorColor: #DCDCCC
+! URLs
+Rxvt*.colorUL:    #ffffff
+!
+! Pseudo Transparency
+!Rxvt*shading:    50
+!Rxvt*transparent:true
+! 
+! Zenburn color-scheme
+Rxvt*background:  #3f3f3f
+Rxvt*foreground:  #dcdccc
+! black + red
+!Rxvt*color0:     #3f3f3f
+Rxvt*color0:      #1E2320
+Rxvt*color1:      #705050
+! green + yellow
+Rxvt*color2:      #60b48a
+Rxvt*color3:      #dfaf8f
+! blue + purple
+Rxvt*color4:      #506070
+Rxvt*color5:      #dc8cc3
+! cyan + white
+Rxvt*color6:      #8cd0d3
+Rxvt*color7:      #dcdccc
+! bright-black + bright-red
+Rxvt*color8:      #709080
+Rxvt*color9:      #dca3a3
+! bright-green + bright-yellow
+Rxvt*color10:     #c3bf9f
+Rxvt*color11:     #f0dfaf
+! bright-blue + bright-purple
+Rxvt*color12:     #94bff3
+Rxvt*color13:     #ec93d3
+! bright-cyan + bright-white
+Rxvt*color14:     #93e0e3
+Rxvt*color15:     #ffffff
+!}}}

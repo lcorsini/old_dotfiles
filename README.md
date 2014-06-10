@@ -1,4 +1,4 @@
-* Dotfiles *
+### *Dotfiles*
 
 Personal repository of configuration files for various platforms
 
@@ -19,7 +19,7 @@ and the zenburn colorset (http://slinky.imukuppi.org/zenburnpage/)
 - rxvt
 
 
-### _TODO_
+#### *TODO*
 
 automation
 iterm2 colors

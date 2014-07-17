@@ -11,6 +11,7 @@ call vundle#begin() 						"initialize
 	Plugin 'kien/ctrlp.vim'					" Ctrl-P
 	Plugin 'tpope/vim-surround'				" Vim Surround
 	Plugin 'bling/vim-airline'				" Vim-Airline
+	Plugin 'saihoooooooo/glowshi-ft.vim'	" f search motion highlight
 call vundle#end()            				" required all of your Plugins must be added before the following line
 
 filetype plugin indent on    				" set indent ofr plugin, required for Vundle

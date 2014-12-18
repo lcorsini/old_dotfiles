@@ -12,6 +12,9 @@ call vundle#begin() 						"initialize
 	Plugin 'tpope/vim-surround'				" Vim Surround
 	Plugin 'bling/vim-airline'				" Vim-Airline
 	Plugin 'saihoooooooo/glowshi-ft.vim'	" f search motion highlight
+	Plugin 'edkolev/tmuxline.vim'			 
+	Plugin 'nathanaelkane/vim-indent-guides'
+	Plugin 'miyakogi/conoline.vim'
 call vundle#end()            				" required all of your Plugins must be added before the following line
 
 filetype plugin indent on    				" set indent ofr plugin, required for Vundle
@@ -38,6 +41,8 @@ nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop> 
+" Map Leader key to SpaceBar
+let mapleader=" "
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
@@ -49,3 +54,16 @@ let g:airline_powerline_fonts = 1
 let g:bufferline_echo = 0
 let g:airline_detect_whitespace=0 			" turn off the whitespace extension
 set noshowmode
+
+"tmuxline theme disable autoset via airline
+let g:tmuxline_theme = 'zenburn'
+let g:airline#extensions#tmuxline#enabled = 0
+"Conoline setup
+let g:conoline_auto_enable = 1
+" Use theme colors in normal mode
+let g:conoline_use_colorscheme_default_normal=1
+" Override colors in insert mode
+let g:conoline_use_colorscheme_default_insert=0
+"Conoline starts in light mode, this overrides colors to dark (waiting to a way to put it in dark mode on startup)
+let g:conoline_color_insert_light = "guibg=#000000 ctermbg=232"
+let g:conoline_color_insert_nr_light = "guibg=#000000 ctermbg=232"
